@@ -1,0 +1,30 @@
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(240, 10, 10);
+  margin: 10px;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input {
+  margin-bottom: 20px;  
+}
+
+.Boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
